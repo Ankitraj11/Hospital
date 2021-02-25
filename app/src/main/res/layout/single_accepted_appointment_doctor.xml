@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#19887F"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:id="@+id/single_accepted_patient_image"/>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="#F8F5F5"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:id="@+id/single_accepted_patient_name"/>
+
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="#F8F5F5"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:id="@+id/single_accepted_patient_profession"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textColor="#F8F5F5"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:id="@+id/single_accepted_patient_speciality"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#0F89B8">
+
+
+                <LinearLayout
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#E41515"
+                        android:textStyle="bold"
+                        android:id="@+id/time_date_status_msg"
+                        android:textAlignment="center"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#6210D3"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="#F8F5F5"
+                        android:id="@+id/appoint_time_date_btn"
+                        android:text="Appoint time and date"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#6210D3"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:layout_margin="5dp"
+                        android:textColor="#F8F5F5"
+                        android:text="View Appointment Info"
+                        android:id="@+id/view_appointment_desc_btn_doctor"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#EF1010"
+                        android:textStyle="bold"
+                        android:id="@+id/medicine_status_msg"
+                        android:textAlignment="center"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#6210D3"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="#F8F5F5"
+                        android:id="@+id/single_accepted_doctor_give_medicine_btn"
+                        android:text="Give medicines"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#6210D3"
+                        android:textStyle="bold"
+                        android:layout_margin="5dp"
+                        android:padding="10dp"
+                        android:textColor="#F8F5F5"
+                        android:id="@+id/show_medicine_btn_doctor"
+                        android:text="Show medicines"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#DA1010"
+                        android:id="@+id/feedback_for_doctor_msg"/>
+
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="view Feedback"
+                        android:layout_margin="5dp"
+                        android:id="@+id/show_feedback_doctor_btn"
+                        android:layout_marginTop="5dp"
+                        android:background="#6210D3"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#F8F5F5"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="#6210D3"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:textColor="#F8F5F5"
+                        android:id="@+id/start_meeting_btn"
+                        android:text="Start Meeting"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#E80E0E"
+                        android:id="@+id/request_new_appoint_for_doctor_statusMsg"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:padding="10dp"
+                        android:background="#6210D3"
+                        android:id="@+id/doctor_accept_new_request_btn"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#F8F5F5"
+                        android:text="Accept requested appointment" />
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

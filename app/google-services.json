@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "293778216543",
+    "firebase_url": "https://dpre-ba1a1.firebaseio.com",
+    "project_id": "dpre-ba1a1",
+    "storage_bucket": "dpre-ba1a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293778216543:android:4a6222db8ff48b58deedea",
+        "android_client_info": {
+          "package_name": "com.example.hospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293778216543-u05085ovie47u6cjqfojbj1nmf6dq18v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSaYIRrbWzyzdyuFMBtiwFdNwnuwvcADk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293778216543-u05085ovie47u6cjqfojbj1nmf6dq18v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

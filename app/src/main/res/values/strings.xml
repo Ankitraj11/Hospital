@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hospital</string>
+
+
+    <string-array name="doctor_speciality">
+
+        <item>Eye specialist</item>
+        <item>Dentist</item>
+        <item>Neurologist</item>
+        <item>General Physician</item>
+        <item>Skin specialist</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

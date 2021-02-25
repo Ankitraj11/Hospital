@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#9E74CD"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="#F4F1F1"
+                android:id="@+id/appoinment_time_patient"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#F4F1F1"
+                android:padding="5dp"
+                android:id="@+id/appoinment_date_patient"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="#F4F1F1"
+                android:id="@+id/appoinment_desc_patient"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="#F4F1F1"
+                android:id="@+id/appoinment_status_patient"/>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change status"
+                android:textColor="#F1EFEF"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/change_appointment_status_checkbox"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ok"
+                android:layout_marginBottom="10dp"
+                android:background="#253FEA"
+                android:elevation="5dp"
+                android:id="@+id/change_status_ok_btn"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</LinearLayout>

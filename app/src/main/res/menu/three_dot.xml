@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="log out"
+        android:id="@+id/log_out"/>
+    <item
+        android:title="update account"
+        android:id="@+id/update_account"/>
+
+    <item
+        android:title="Account"
+        android:id="@+id/my_account"/>
+
+    <item
+        android:title="My Appointment"
+        android:id="@+id/my_appointment"/>
+
+    <item
+        android:title="Requested Appointment"
+        android:id="@+id/requested_appointment"/>
+</menu>

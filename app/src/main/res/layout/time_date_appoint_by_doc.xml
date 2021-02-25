@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#177368">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Time"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#F6F4F4"
+                android:textStyle="bold"
+
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:inputType="time"
+                android:id="@+id/write_time"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#F6F4F4"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:inputType="date"
+                android:id="@+id/write_date"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="any desc"
+                android:textColor="#F6F4F4"
+                android:textColorHint="#F6F4F4"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:maxWidth="300dp"
+                android:inputType="textMultiLine"
+                android:maxLines="150"
+                android:scrollbars="vertical"
+                android:id="@+id/write_desc"/>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+
+                android:id="@+id/time_date_progress"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp"
+
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#F6F4F4"
+                    android:background="#668DC8"
+                    android:padding="10dp"
+                    android:textColorHint="#F6F4F4"
+                    android:textStyle="bold"
+
+                    android:id="@+id/udpate_timedate_btn"
+                    android:text="Give information"/>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
